@@ -1,0 +1,86 @@
+.container{
+	width: 900px;
+}
+
+/*Imagen del encabezado*/
+header{
+	height: 900px;
+	background-image:url("../img/grupal.jpg");
+	background-size: cover;
+}
+/*Configuracion del boton Sumate*/
+.boton{       
+	padding-top: 10px;
+	width: 100px;
+	height: 50px;
+    background: orange;
+   	text-align: center;
+   	margin-top: 50px;
+ }
+ .boton a{
+ 	font-family: Tahoma;
+  	text-decoration: none;
+ 	font-size: 10px;
+ 	color:black;
+ }
+  /*logo de laboratoria*/
+.logo img{      
+	height:50px;
+	width: 300px;
+	position: absolute;
+	border:none;
+	margin-top: 50px;
+}
+/*Los enlaces*/
+nav a{
+	float: left;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	margin-left: 20px;
+}
+nav{
+	margin-left: 200px;
+}
+.mover{
+	margin-top: 30px;
+}
+/*Seccion de imagenes*/
+.imglink img{
+	margin-top: 100px;
+	margin-right: 100px;
+	height: 200px;
+	width: 280px;
+}
+
+.imglink h3{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	color:black;
+	text-align: left;
+	border-bottom: 1px solid black;
+	margin-bottom:50px;
+	margin-left:-2px;
+}
+/*El pie de pagina*/
+footer{
+	background-color: #424242;
+	color: white;
+	font-size: 10px;
+	padding:20px;
+	text-align: center;
+}
+span{
+	border-right: 1px solid #FFFFFF;
+	padding-right: 5px;
+}
+span a{
+	text-decoration: none;
+	color: #58ACFA;
+}
+#nomarco{
+	border:none;
+}
